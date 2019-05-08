@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "Lat": {
+            "type": "string",
+            "enum": [
+                "38.878586"
+            ]
+        },
+        "Lon": {
+            "type": "string",
+            "enum": [
+                "-76.989626"
+            ]
+        },
+        "Radius": {
+            "type": "string",
+            "enum": [
+                "500"
+            ]
+        }
+    }
+}

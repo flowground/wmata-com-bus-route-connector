@@ -1,0 +1,16 @@
+{
+    "type": "object",
+    "properties": {
+        "StopID": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "1001195"
+            ],
+            "default": "1001195"
+        },
+        "Date": {
+            "type": "string"
+        }
+    }
+}

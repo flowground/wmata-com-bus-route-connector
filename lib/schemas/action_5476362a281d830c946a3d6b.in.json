@@ -1,0 +1,23 @@
+{
+    "type": "object",
+    "properties": {
+        "RouteID": {
+            "required": true,
+            "type": "string",
+            "enum": [
+                "70"
+            ],
+            "default": "70"
+        },
+        "Date": {
+            "type": "string"
+        },
+        "IncludingVariations": {
+            "type": "boolean",
+            "enum": [
+                "false",
+                "true"
+            ]
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "object",
+    "properties": {
+        "RouteID": {
+            "type": "string",
+            "enum": [
+                "70"
+            ],
+            "default": "70"
+        },
+        "Lat": {
+            "type": "number"
+        },
+        "Lon": {
+            "type": "number"
+        },
+        "Radius": {
+            "type": "number"
+        }
+    }
+}
